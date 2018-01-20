@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SpartaHack4_Receipts.iml" filepath="$PROJECT_DIR$/SpartaHack4_Receipts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/SpartaHack4_Receipts.iml" filepath="$PROJECT_DIR$/.idea/SpartaHack4_Receipts.iml" />
+      <module fileurl="file://C:\Users\Blake\AndroidStudioProjects\SpartaHack4_Receipts\SpartaHack4_Receipts.iml" filepath="C:\Users\Blake\AndroidStudioProjects\SpartaHack4_Receipts\SpartaHack4_Receipts.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\Blake\AndroidStudioProjects\SpartaHack4_Receipts\app\app.iml" filepath="C:\Users\Blake\AndroidStudioProjects\SpartaHack4_Receipts\app\app.iml" />
     </modules>
   </component>
 </project>
