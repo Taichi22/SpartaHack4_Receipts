@@ -57,7 +57,13 @@ public class MainActivity extends Activity implements CreateNdefMessageCallback{
     @Override
     public NdefMessage createNdefMessage(NfcEvent event) {
         String text = "Beam is working...";
-        NdefMessage msg = new NdefMessage(new NdefRecord[]{createMimeRecord("application/com.example.android.beam", text.getBytes())});
+        NdefMessage msg = new NdefMessage(new NdefRecord[]{createMimeRecord("ID    Item    Quantity    Price
+1    cookies    1    $5.00
+2    sandwich bags    2    $3.25
+3    wate bottles    5    $4.25
+4    kitkat    2    $2.25
+5    lolipop    3    $3.00
+6    gingerbread    2    $2.50", text.getBytes())});
         return msg;
     }
 
